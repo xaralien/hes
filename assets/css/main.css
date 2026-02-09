@@ -1538,7 +1538,7 @@ textarea {
   }
 }
 .tgmenu__nav .logo img {
-  max-height: 34px;
+  max-height: 50px;
 }
 .tgmenu__navbar-wrap {
   display: -webkit-box;
@@ -1692,7 +1692,8 @@ textarea {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
+  /* display: flex; */
+  display: none;
   align-items: center;
   margin-left: 10px;
 }
@@ -2021,7 +2022,7 @@ textarea {
   text-align: left;
 }
 .tgmobile__menu .nav-logo img {
-  max-height: 34px;
+  max-height: 45px;
 }
 .tgmobile__menu .navigation {
   position: relative;
@@ -9636,15 +9637,17 @@ textarea {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  min-height: 250px;
 }
 @media (max-width: 1199.98px) {
   .features__item-two {
     flex-wrap: wrap;
+
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .features__item-two {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;    
   }
 }
 .features__item-two:hover .features__icon-two i {
@@ -12740,7 +12743,7 @@ blockquote p {
 }
 
 .fw-logo img {
-  max-height: 34px;
+  max-height: 50px;
 }
 
 .fw-title {
