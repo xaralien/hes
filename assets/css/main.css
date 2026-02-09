@@ -9637,7 +9637,7 @@ textarea {
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  min-height: 250px;
+  min-height: 180px;
 }
 @media (max-width: 1199.98px) {
   .features__item-two {
